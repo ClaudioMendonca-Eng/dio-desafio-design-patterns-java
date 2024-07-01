@@ -33,7 +33,13 @@ Descobri a existência de três categorias principais de padrões de projeto:
 Implementar esses padrões manualmente me deu uma compreensão mais profunda de suas funcionalidades subjacentes. Aqui estão alguns exemplos que implementei:
 
 #### Singleton
-Objetivo: Garantir que uma classe tenha apenas uma instância e fornecer um ponto de acesso global a ela.
+
+|SINGLETON|
+|:---:|
+|Objetivo: Garantir que uma classe tenha apenas uma instância e fornecer um ponto de acesso global a ela.|
+| [![](https://mermaid.ink/img/pako:eNptUD1vwyAQ_SvoplYlFthGNqhbsnbKVrEguKaoNkQYS01d__diK12qvuXevXdfugVsdAgK7GCm6eTNJZlRB1Jw9pcBcwzk-ftwIMfBY8j4n_Wb_fEUeZqyyd4SHwoJFh8e9xKgMGIajXdl77JJGvI7jqhBFepM-tCgw1rqzJzj-RYsqJxmpDBfncl4PxPUmxmmol5NALXAJyjB6qrrWl7zhhfInsINVGEV29BLXgsupVwpfMVYJrCqlbKRomWCdb2QXUMBnc8xvdz_soV9xevesN2x_gCkA17f?type=png)](https://mermaid.live/edit#pako:eNptUD1vwyAQ_SvoplYlFthGNqhbsnbKVrEguKaoNkQYS01d__diK12qvuXevXdfugVsdAgK7GCm6eTNJZlRB1Jw9pcBcwzk-ftwIMfBY8j4n_Wb_fEUeZqyyd4SHwoJFh8e9xKgMGIajXdl77JJGvI7jqhBFepM-tCgw1rqzJzj-RYsqJxmpDBfncl4PxPUmxmmol5NALXAJyjB6qrrWl7zhhfInsINVGEV29BLXgsupVwpfMVYJrCqlbKRomWCdb2QXUMBnc8xvdz_soV9xevesN2x_gCkA17f) |
+
+
 
 **Singleton Preguiçoso:**
 ```java
@@ -80,7 +86,12 @@ public class SingletonLazyHolder {
 ```
 
 #### Strategy
-Objetivo: Permitir a variação de algoritmos independentemente dos clientes que os utilizam.
+
+| STRATEGY |
+|:---:|
+| Objetivo: Permitir a variação de algoritmos independentemente dos clientes que os utilizam. |
+| [![](https://mermaid.ink/img/pako:eNqNkT1vgzAQhv8KuqkfEAElIbGypUuGqkM7VSwn4xCr2EbmUEMp_71Hgjq0GXqLrcfvPdbZA0hXKhAga2zbR42VR1PYgEs6S-pEwTaKgl2tlaUL3zP2B5RqOrn7iYkgaskjqar_k_tixd40tTJsQdLOPls1p35jFt1jXTmv6Whubv_hev1w11yMr7kgBKO8QV3y1MOECqAjtxUgeFuify-gsCPnsCP30lsJgnynQuiakuebHwnEAeuWaYMWxAAnEHEIPYgkX8T5Jk3SLF1lD3GWLccQPp3jjmQRXypdr-L1ZpnkIahSk_NP8y9My1n5dm6Y7h2_AepChvI?type=png)](https://mermaid.live/edit#pako:eNqNkT1vgzAQhv8KuqkfEAElIbGypUuGqkM7VSwn4xCr2EbmUEMp_71Hgjq0GXqLrcfvPdbZA0hXKhAga2zbR42VR1PYgEs6S-pEwTaKgl2tlaUL3zP2B5RqOrn7iYkgaskjqar_k_tixd40tTJsQdLOPls1p35jFt1jXTmv6Whubv_hev1w11yMr7kgBKO8QV3y1MOECqAjtxUgeFuify-gsCPnsCP30lsJgnynQuiakuebHwnEAeuWaYMWxAAnEHEIPYgkX8T5Jk3SLF1lD3GWLccQPp3jjmQRXypdr-L1ZpnkIahSk_NP8y9My1n5dm6Y7h2_AepChvI) |
+
 
 **Exemplo: Robô com Estratégias de Movimentação:**
 
@@ -131,7 +142,11 @@ public class Robo {
 ```
 
 #### Facade
-Objetivo: Fornecer uma interface simplificada para um conjunto complexo de interfaces de um subsistema.
+
+| FACADE |
+|:---:|
+| Objetivo: Fornecer uma interface simplificada para um conjunto complexo de interfaces de um subsistema.. |
+| [![](https://mermaid.ink/img/pako:eNqVkc1qwzAQhF_F7KmlivE_tuitpbfSQ25FULbWJhG1JSPL0NT43avYzqGEFLIHaRnNfELaEWojCTjUDfb9s8K9xVbowNcL1igpeNxsgqdGkXZ_ZB48SNO4u_tFfeucMhqbD5RSre0ZEIZraLFuh89e9Y5ajOKZfj17EUjmwJXD9FZa9h8tv5VWXNDmFRi0ZFtU0v_yeJIEuAO1JID7VqL9EiD05H04OLM96hq4swMxGDqJjtahnMUONfARvoFHDI7Aqygsiyyt0iQu4ywuqonBjzHeH4fRUkkV5VlepSUD8q8w9nWd-Wmbie9zYLnAmmF_AL7DpqfpF9CLrNY?type=png)](https://mermaid.live/edit#pako:eNqVkc1qwzAQhF_F7KmlivE_tuitpbfSQ25FULbWJhG1JSPL0NT43avYzqGEFLIHaRnNfELaEWojCTjUDfb9s8K9xVbowNcL1igpeNxsgqdGkXZ_ZB48SNO4u_tFfeucMhqbD5RSre0ZEIZraLFuh89e9Y5ajOKZfj17EUjmwJXD9FZa9h8tv5VWXNDmFRi0ZFtU0v_yeJIEuAO1JID7VqL9EiD05H04OLM96hq4swMxGDqJjtahnMUONfARvoFHDI7Aqygsiyyt0iQu4ywuqonBjzHeH4fRUkkV5VlepSUD8q8w9nWd-Wmbie9zYLnAmmF_AL7DpqfpF9CLrNY) |
 
 **Exemplo de Facade:**
 ```java
