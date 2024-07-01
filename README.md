@@ -1,4 +1,4 @@
-# DIO - Trilha Java Básico - Desafio Prática DESIGN PATTERS JAVA
+# DIO - Trilha Java Básico - Desafio Prática DESIGN PATTERNS JAVA
 
 | [![DIO.me](https://github.com/ClaudioMendonca-Eng/dio-trilha-java-basico/blob/main/img/dio.png)](https://dio.me) |
 |:--:|
