@@ -17,7 +17,7 @@
 
 Oi! Gostaria de compartilhar um pouco sobre minha experiência com o curso sobre padrões de projeto em Java e Spring Framework. Durante o curso, adquiri um profundo entendimento sobre a implementação e utilização desses padrões, além de aprender práticas valiosas que certamente aprimoraram minhas habilidades de desenvolvimento de software. Aqui está um resumo do que aprendi:
 
-### Introdução
+### 📘 Introdução
 No curso, explorei diversos padrões de projeto em Java, suas implementações manuais e como utilizá-los eficazmente com o Spring Framework.
 
 ### O que são Padrões de Projeto?
@@ -29,10 +29,10 @@ Descobri a existência de três categorias principais de padrões de projeto:
 - **Padrões Estruturais**: Tratam da composição de classes e objetos.
 - **Padrões Comportamentais**: Lidam com a comunicação entre objetos.
 
-### Implementação Manual de Padrões de Projeto
+### 💻 Implementação Manual de Padrões de Projeto
 Implementar esses padrões manualmente me deu uma compreensão mais profunda de suas funcionalidades subjacentes. Aqui estão alguns exemplos que implementei:
 
-#### Singleton
+#### 📌 Singleton
 
 |SINGLETON|
 |:---:|
@@ -42,6 +42,7 @@ Implementar esses padrões manualmente me deu uma compreensão mais profunda de 
 
 
 **Singleton Preguiçoso:**
+
 ```java
 public class SingletonPreguicoso {
     private static SingletonPreguicoso instancia;
@@ -58,6 +59,7 @@ public class SingletonPreguicoso {
 ```
 
 **Singleton Apressado:**
+
 ```java
 public class SingletonApressado {
     private static final SingletonApressado instancia = new SingletonApressado();
@@ -85,7 +87,7 @@ public class SingletonLazyHolder {
 }
 ```
 
-#### Strategy
+#### 📌 Strategy
 
 | STRATEGY |
 |:---:|
@@ -141,7 +143,7 @@ public class Robo {
 }
 ```
 
-#### Facade
+#### 📌 Facade
 
 | FACADE |
 |:---:|
@@ -149,6 +151,7 @@ public class Robo {
 | [![](https://mermaid.ink/img/pako:eNqVkc1qwzAQhF_F7KmlivE_tuitpbfSQ25FULbWJhG1JSPL0NT43avYzqGEFLIHaRnNfELaEWojCTjUDfb9s8K9xVbowNcL1igpeNxsgqdGkXZ_ZB48SNO4u_tFfeucMhqbD5RSre0ZEIZraLFuh89e9Y5ajOKZfj17EUjmwJXD9FZa9h8tv5VWXNDmFRi0ZFtU0v_yeJIEuAO1JID7VqL9EiD05H04OLM96hq4swMxGDqJjtahnMUONfARvoFHDI7Aqygsiyyt0iQu4ywuqonBjzHeH4fRUkkV5VlepSUD8q8w9nWd-Wmbie9zYLnAmmF_AL7DpqfpF9CLrNY?type=png)](https://mermaid.live/edit#pako:eNqVkc1qwzAQhF_F7KmlivE_tuitpbfSQ25FULbWJhG1JSPL0NT43avYzqGEFLIHaRnNfELaEWojCTjUDfb9s8K9xVbowNcL1igpeNxsgqdGkXZ_ZB48SNO4u_tFfeucMhqbD5RSre0ZEIZraLFuh89e9Y5ajOKZfj17EUjmwJXD9FZa9h8tv5VWXNDmFRi0ZFtU0v_yeJIEuAO1JID7VqL9EiD05H04OLM96hq4swMxGDqJjtahnMUONfARvoFHDI7Aqygsiyyt0iQu4ywuqonBjzHeH4fRUkkV5VlepSUD8q8w9nWd-Wmbie9zYLnAmmF_AL7DpqfpF9CLrNY) |
 
 **Exemplo de Facade:**
+
 ```java
 public class Facade {
     private CRMService crmService = new CRMService();
@@ -162,18 +165,18 @@ public class Facade {
 }
 ```
 
-### Uso do Spring Framework
+### ✔ Uso do Spring Framework
 O curso destacou como o Spring Framework facilita a implementação desses padrões, fornecendo implementações prontas e ferramentas como IoC (Inversão de Controle) e DI (Injeção de Dependência).
 
-### Principais Aprendizados
+### 📚 Principais Aprendizados
 - **Compreensão Profunda**: Ganhei uma sólida compreensão dos tipos mais comuns de padrões de projeto e como implementá-los manualmente.
 - **Uso do Spring**: Aprendi a utilizar o Spring Framework para implementar esses padrões de maneira eficiente.
 - **Valor da Continuidade**: Apreciei o valor da disseminação do conhecimento e do aprendizado contínuo no campo do desenvolvimento de software.
 
-### Estrutura de Projeto Spring
+### 🚧 Estrutura de Projeto Spring
 Utilizei o Spring Initializr para criar um projeto que explora os padrões de design com módulos específicos como Web, Data JPA, H2 Database, OpenFeign e Swagger.
 
-### Conceitos Chave
+### 🔑 Conceitos Chave
 - **IoC e DI**: O Spring gerencia a criação e dependências de objetos, promovendo uma separação de preocupações eficiente.
 - **Prototipação Rápida**: O Spring Initializr facilita a criação rápida de projetos.
 - **Consumo de API Externa**: OpenFeign permite a integração fácil com APIs externas.
