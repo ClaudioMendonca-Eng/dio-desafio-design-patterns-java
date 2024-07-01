@@ -190,7 +190,7 @@ Minha jornada com este curso me permitiu entender profundamente os padrões de p
 
 - Design Patterns com Java: Dos Clássicos (GoF) ao Spring Framework
 
-[![Certificado](docs/src/img/01_certificado.png)](https://www.dio.me/certificate/TQ0JX1MW)
+[![Certificado](docs/src/img/01_certificado.png)](https://www.dio.me/certificate/RLJFIEC7)
 
 
 ## Licença
