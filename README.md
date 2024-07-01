@@ -11,7 +11,7 @@
 
 ### 🚀 Desafio 
 
-<p> Sejam bem-vindos ao desafio: <strong> DESIGN PATTERS JAVA.</strong><br>
+<p> Sejam bem-vindos ao desafio: <strong> DESIGN PATTERNS JAVA.</strong><br>
     O objetivo principal é colocar em prática umas das principais padrões de projetos do java: <strong>Singleton, Strategy/Repository e Facade</strong> através de um projeto Java. </p>
 ---------------------------------------------
 
